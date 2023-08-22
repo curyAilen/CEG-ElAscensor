@@ -1,0 +1,31 @@
+/*FUENTES_ 
+titulos
+font-family: 'Bricolage Grotesque', sans-serif;
+generales
+font-family: 'Nunito Sans', sans-serif;
+*/
+.titulo{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-align: center;
+}
+.parrafo{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+.itemNav{
+    color: white !important;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+.itemNav:hover{
+    color: rgb(62, 78, 110) !important;
+    font-weight: 800;
+}
+.fondoNav{
+    background-color: rgb(48, 180, 141);
+   
+}
+.carouselBanner{
+    width: 100%;
+
+}
