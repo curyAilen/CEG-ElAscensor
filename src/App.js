@@ -1,15 +1,17 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from './components/Header/Header.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { Link } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-         <Header></Header>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+         <Route path="/" />
+      </Routes>
+      <Header></Header>
+    </BrowserRouter>
   );
 }
 

@@ -18,11 +18,11 @@ font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
 }
 .itemNav:hover{
-    color: rgb(62, 78, 110) !important;
+    color: rgb(205, 212, 209) !important;
     font-weight: 800;
 }
 .fondoNav{
-    background-color: rgb(48, 180, 141);
+    background-color: rgb(27, 119, 91);
    
 }
 .carouselBanner{
